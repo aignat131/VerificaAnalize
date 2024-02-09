@@ -1,0 +1,46 @@
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.product {
+  padding: 5rem 10% 0;
+  background-color: var(--color-dark--1);
+  align-items: center;
+  animation: slideInFromTop 1s ease;
+}
+
+.product section {
+  margin: 6rem auto;
+  display: grid;
+  gap: 7rem;
+  align-items: center;
+}
+
+.img2 {
+  width: 30%;
+}
+
+.product h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.product p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.product section a {
+  margin-top: 2rem;
+}
+.searchContainer {
+  padding-top: 3rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
