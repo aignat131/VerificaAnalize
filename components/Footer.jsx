@@ -11,21 +11,20 @@ function Footer () {
     <footer>
       <div className={isTabletOrMobile ? style.footer_small : style.footer}>
         <div className={isTabletOrMobile ? style.column : style.column_small}>
-          <h3>About Us</h3>
-          <p>"Your website quote goes here."</p>
+          <h3>Despre noi</h3>
+          <p>Cateva click-uri iti pot salva viata.</p>
         </div>
 
         <div className={isTabletOrMobile ? style.column : style.column_small}>
           <h3>Quick Links</h3>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Product</a></li>
+            <li><a href="#">Acasa</a></li>
+            <li><a href="#">Despre</a></li>
           </ul>
         </div>
 
         <div className={isTabletOrMobile ? style.column : style.column_small}>
-          <h3>Privacy Policy</h3>
+          <h3>Politica de confidentialitate</h3>
           <p>Your privacy policy content goes here.</p>
         </div>
 

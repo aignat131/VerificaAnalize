@@ -1,6 +1,6 @@
 // Uses the same styles as Product
 import PageNav from "../components/PageNav";
-import styles from "./Contact.module.css";
+import styles from "./Despre.module.css";
 import React, { useState } from 'react';
 import SearchBar from "../components/SearchBar";
 import SearchResultsList from "../components/SearchResultsList";

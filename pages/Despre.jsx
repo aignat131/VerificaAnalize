@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import PageNav from "../components/PageNav";
-import styles from "./Contact.module.css";
+import styles from "./Despre.module.css";
 
 export default function Contact() {
   return (
@@ -10,7 +10,7 @@ export default function Contact() {
          <img
          className={styles.img2}
         src="TwoMen.png"
-        alt="person with dog overlooking mountain with sunset"
+        alt="Logo"
       />
         <div>
           

@@ -22,7 +22,7 @@
 }
 
 html {
-  background-color: var(--color-dark--1);
+  background-color: rgba(57, 241, 232, 0.801);
   font-size: 62.5%;
   box-sizing: border-box;
 }
@@ -50,6 +50,9 @@ textarea {
   background-color: var(--color-light--3);
   transition: all 0.2s;
 }
+nav {
+  text-decoration: none;
+}
 
 input:focus {
   outline: none;
@@ -59,8 +62,7 @@ input:focus {
 .cta:link,
 .cta:visited {
   display: inline-block;
-  background-color: var(--color-brand--2);
-  color: var(--color-dark--1);
+  background-color: blue;
   text-transform: uppercase;
   text-decoration: none;
   font-size: 1.6rem;

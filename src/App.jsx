@@ -5,7 +5,6 @@ import Homepage from "../pages/Homepage";
 //import AppLayout from "../pages/AppLayout";
 //import PageNotFound from "../pages/PageNotFound"; 
 import Analize from "../pages/Analize";
-import Contact from "../pages/Contact";
 import Despre from "../pages/Despre"
 
 const queryClient = new QueryClient({
@@ -23,7 +22,6 @@ function App(){
        <BrowserRouter>
             <Routes>
 <Route path="/" element={<Homepage />} />
-<Route path="Contact" element={<Contact />} />
 <Route path="Analize" element={<Analize />} />
 <Route path="Despre" element={<Despre />} />
             </Routes>

@@ -3,6 +3,8 @@ import styles from "./Homepage.module.css"
 import PageNav from "../components/PageNav";
 import { useMediaQuery } from 'react-responsive'
 import Footer from "../components/Footer";
+import videoBg1 from "../src/assets/videoBg1.mp4"
+
 
 export default function Homepage() {
   const isTabletOrMobile =useMediaQuery({
@@ -12,7 +14,6 @@ export default function Homepage() {
     <div>
       <PageNav />
     <main className={styles.homepage}>
-
       <section className={isTabletOrMobile ? styles.section1 : styles.section1Big}>
         <h1>
           Monitorizarea sănătății tale în doar câteva clicuri.

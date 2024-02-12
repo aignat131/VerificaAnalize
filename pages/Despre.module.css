@@ -1,0 +1,59 @@
+@keyframes slideInFromTop {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFromBottom {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.product {
+  color: black;
+  padding: 8rem 10% 0;
+  align-items: center;
+}
+
+.product section {
+  margin: 6rem auto;
+  display: grid;
+  gap: 7rem;
+  align-items: center;
+}
+
+.img2 {
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+  animation: slideInFromTop 1s ease;
+}
+
+.product h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  animation: slideInFromTop 1s ease;
+
+}
+
+.product p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  animation: slideInFromBottom 1s ease;
+}
+
+.product section a {
+  margin-top: 2rem;
+}
+.searchContainer {
+  padding-top: 3rem;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
