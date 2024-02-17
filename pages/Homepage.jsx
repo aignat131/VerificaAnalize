@@ -14,7 +14,8 @@ export default function Homepage() {
     <div>
       <PageNav />
     <main className={styles.homepage}>
-      <section className={isTabletOrMobile ? styles.section1 : styles.section1Big}>
+      <div className={isTabletOrMobile ? styles.section1 : styles.section1Big}>
+      <section className={isTabletOrMobile ? styles.section11 : styles.section1Big1}>
         <h1>
           Monitorizarea sănătății tale în doar câteva clicuri.
         </h1>
@@ -25,9 +26,15 @@ export default function Homepage() {
         </h2>
         <Link to='/Analize' className="cta">
           Verifică analize
-        </Link>
-        
+        </Link>        
       </section>
+           <div>
+     <img
+         src="doctor_img.png"
+         alt="Logo"
+         />
+     </div> 
+         </div>
       <section className={isTabletOrMobile ? styles.features : styles.features_big}>
         <div className={styles.feature}>
           <h1>Suntem aici pentru tine.</h1>
